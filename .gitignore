@@ -4,12 +4,24 @@
 /node_modules
 /.pnp
 .pnp.js
+.venv
+
+
+#python
+/page_builder/__pycache__
+/customers/__pycache__
+/customers/migrations
 
 # testing
 /coverage
 
+#database
+db.sqlite3
+
 # production
 /build
+/public
+
 
 # misc
 .DS_Store
